@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AutoConstruct</id>
+    <version>1.0.0</version>
+    <authors>Jörgen Sigvardsson</authors>
+    <owners>Jörgen Sigvardsson</owners>
+    <licenseUrl>https://github.com/jorgensigvardsson/AutoConstruct/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jorgensigvardsson/AutoConstruct</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Tool for auto inject mocks into constructors during test. Minimizes required setup code.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <dependencies>
+      <dependency id="Moq" version="[4.5.21,)" />
+    </dependencies>
+  </metadata>
+</package>
