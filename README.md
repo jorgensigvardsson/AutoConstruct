@@ -17,6 +17,7 @@ Once an instance has been created of the specified type, this ConstructorContext
     
 ## Example
 This is an example of how the class may be used. Given the types:
+
     public interface ISomeInterface {
          void SomeOperation();
     }
