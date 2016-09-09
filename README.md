@@ -34,6 +34,7 @@ This is an example of how the class may be used. Given the types:
     } 
 
 We can write tests like this:
+
     var context = new ConstructorContext<Class>();
     var mock = context.Inject(new Mock<ISomeInterface>());
     
